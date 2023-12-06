@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+    height: 10vh;
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    padding: 10px;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    transition: 0.8s;
+}
+
+.nav a:hover {
+    color: purple;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 1450px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    object-fit: cover;
+}
+
+
+
+.card p {
+    color: #ffffff;
+}
+
+.imagem {
+    width: 240px;
+    height: 230px;
+    object-fit: cover;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
