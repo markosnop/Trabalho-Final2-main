@@ -26,34 +26,37 @@ header h2 {
     transition: 0.8s;
 }
 
-.nav a:hover {
-    color: purple;
-}
-
 .card {
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     border-radius: 8px;
     padding: 10px;
-    margin: 10px;
-    width: 1450px;
-    height: 400px;
+    margin: 15px;
+    width: 1050px;
+    height: 325px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    object-fit: cover;
+    display: grid;
+    object-fit: contain ;
 }
 
-
+.card h3{
+    margin-top: 0 ;
+    height: 3px;
+}
 
 .card p {
     color: #ffffff;
+    text-align: right;
+    font-weight: 700;
 }
 
 .imagem {
-    width: 240px;
-    height: 230px;
-    object-fit: cover;
+    margin-top: 0;
+    width: 250px;
+    height: 255px;
+    object-fit: scale-down;
 }
+
 
 body {
     background-color: rgb(47, 47, 47);
