@@ -1,63 +1,12 @@
-header {
-    background-color: black;
-    height: 10vh;
-    display:block;
-    justify-content: space-between;
-    align-items: center;
+.col {
+    padding: 5%;
 }
 
-header h2 {
-    color: white;
-    padding: 10px;
-}
-
-.nav ul {
-    list-style-type: none;
-}
-
-.nav li {
-    display: inline;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    padding: 12px;
-    transition: 0.8s;
+main {
+    background: linear-gradient(#000, rgb(0, 11, 73), #02073c, #072059);
 }
 
 .card {
-    border: 5px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 15px;
-    width: 1050px;
-    height: 325px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: grid;
-    object-fit: contain ;
-}
-
-.card h3{
-    margin-top: 0 ;
-    height: 3px;
-}
-
-.card p {
-    color: #ffffff;
-    text-align: right;
-    font-weight: 700;
-}
-
-.imagem {
-    margin-top: 0;
-    width: 250px;
-    height: 255px;
-    object-fit: scale-down;
-}
-
-
-body {
-    background-color: rgb(47, 47, 47);
+    background: linear-gradient(#000, rgb(0, 11, 73), #000b7f, #154fd7);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
